@@ -18,7 +18,7 @@ export const Title = styled.h1`
 
 export const Artk = styled.div`
   height: 100vh;
-  background-image: url('${require('../../assets/coffee.gif')}');
+  background-image: url('${require('../../assets/waiting_the_snow_by_kirokaze-datjp1z.gif')}');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

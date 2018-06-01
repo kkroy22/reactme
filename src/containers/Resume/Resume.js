@@ -18,15 +18,15 @@ class Resume extends Component {
         
         <P>&nbsp;</P>
         <H1 align="left">COMPUTER PROGRAMMING LANGUAGES I KNOW</H1>
-        <P align="left">C/C++, Go, Java, Javascript, Julia, Python, Rust.</P>
+        <P align="left">C/C++, Go(Golang), Java, Javascript, Julia, Python, Rust.</P>
         
         <P>&nbsp;</P>
         <H1 align="left">TECHNOLOGIES I USE</H1>
-        <P align="left">Docker, Django, Git, Linux, Machine Learning, OpenCV, PostgreSQL, vuejs.</P>
+        <P align="left">Docker, Django, Git, Linux, Machine Learning, OpenCV, PostgreSQL, Vue.js.</P>
 
         <P>&nbsp;</P>
         <H1 align="left">Others familiar things</H1>
-        <P align="left">Android, Ansible, Blockchain, D3.js, Elasticsearch, Flask, Hadoop, HBase, Jenkins, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, R, React, Scala, Spark.</P>
+        <P align="left">Android, Ansible, Blockchain, D3.js, Elasticsearch, Flask, Hadoop, HBase, Jenkins, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, R, React.js, Scala, Spark ...</P>
 
         <P>&nbsp;</P>
         <H1 align="left">WORK EXPERIENCE</H1>
