@@ -22,11 +22,11 @@ class Resume extends Component {
         
         <P>&nbsp;</P>
         <H1 align="left">TECHNOLOGIES I USE</H1>
-        <P align="left">Docker, Flask, Git, Linux, Machine Learning, OpenCV, PostgreSQL, vuejs.</P>
+        <P align="left">Docker, Django, Git, Linux, Machine Learning, OpenCV, PostgreSQL, vuejs.</P>
 
         <P>&nbsp;</P>
         <H1 align="left">Others familiar things</H1>
-        <P align="left">Ansible, Blockchain, D3.js, Django, Elasticsearch, Hadoop, HBase, Jenkins, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, Openstack, R, React, Scala, Spark.</P>
+        <P align="left">Ansible, Blockchain, D3.js, Elasticsearch, Flask, Hadoop, HBase, Jenkins, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, R, React, Scala, Spark.</P>
 
         <P>&nbsp;</P>
         <H1 align="left">WORK EXPERIENCE</H1>
