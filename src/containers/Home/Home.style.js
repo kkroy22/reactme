@@ -16,9 +16,30 @@ export const Title = styled.h1`
   color: ${OLIVINE};
 `;
 
+
+let state;
+let obs;
+
+// let background = setTimeout(function tick() {
+
+//   background = setTimeout(tick, 5000);
+// }, 5000);
+
+state = 1
+if(state == 0){
+  state = 1;
+  console.log(state)
+  obs = require('../../assets/coffee_in_rain_by_kirokaze-d98qb8z.gif');
+}
+else{
+  state = 0;
+  console.log(state)
+  obs = require('../../assets/waiting_the_snow_by_kirokaze-datjp1z.gif');
+}
+
 export const Artk = styled.div`
   height: 100vh;
-  background-image: url('${require('../../assets/waiting_the_snow_by_kirokaze-datjp1z.gif')}');
+  background-image: url('${obs}');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
