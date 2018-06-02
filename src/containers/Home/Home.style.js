@@ -25,7 +25,7 @@ let obs;
 //   background = setTimeout(tick, 5000);
 // }, 5000);
 
-state = 1
+state = 0
 if(state == 0){
   state = 1;
   console.log(state)
