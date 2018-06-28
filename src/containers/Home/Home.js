@@ -124,7 +124,7 @@ export default class Home extends Component {
            <RevealPr hide={!isInView}>
            <H3 align="right">My All profile has the Same ID</H3>
            <P align="left">
-           Skype | WeChat | fb | twitter | twitch | Soundcloud | Deviantart | Patreon | PayPal (whisper: including G+)
+           Skype | WeChat | fb | twitter | twitch | Reddit | Kaggle | Hackerearth | UpVerter | Soundcloud | Deviantart | Patreon | PayPal (whisper: including G+ and Yahoo)
            </P> 
            </RevealPr>
            }
