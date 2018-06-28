@@ -18,6 +18,16 @@ export default class Home extends Component {
            <h1>Kiran Kumar Roy </h1>
            <h3>Observer of Wisdom</h3>
          </Artk>
+
+         <WhenInView>
+           {({ isInView }) =>
+           <RevealPl hide={!isInView}>
+           <P align="left"></P>
+
+           </RevealPl>
+           }
+         </WhenInView>
+
          <WhenInView>
            {({ isInView }) =>
            <RevealPc hide={!isInView}>
@@ -52,16 +62,6 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-           <P align="left"></P>
-
-           </RevealPl>
-           }
-         </WhenInView>
-
-
-         <WhenInView>
-           {({ isInView }) =>
-           <RevealPl hide={!isInView}>
              LinkedIn ID : kkroy22
            </RevealPl>
            }
@@ -84,30 +84,48 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-           <P align="left"></P>
-
-           </RevealPl>
-           }
-         </WhenInView>
-
-         <WhenInView>
-           {({ isInView }) =>
-           <RevealPl hide={!isInView}>
              GitHub ID : bikky22
            </RevealPl>
            }
          </WhenInView>
+
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-           <H1 align="left">Skype | WeChat | fb | twitter | Soundcloud | Deviantart | Patreon | PayPal</H1>
+           <H1 align="left">Micro Blog</H1>
            </RevealPl>
            }
          </WhenInView>
          <WhenInView>
            {({ isInView }) =>
            <RevealPr hide={!isInView}>
-           <H3 align="right">My All profile has the Same ID (whisper: including G+)</H3>
+           <H1 align="right"><A href = "http://owcsx.tumblr.com/"> owcsx </A></H1>
+           </RevealPr>
+           }
+         </WhenInView>
+
+         <WhenInView>
+           {({ isInView }) =>
+           <RevealPl hide={!isInView}>
+             Tumblr : owcsx
+           </RevealPl>
+           }
+         </WhenInView>
+
+         <WhenInView>
+           {({ isInView }) =>
+           <RevealPl hide={!isInView}>
+           <H1 align="left">All other social Platform</H1>
+           </RevealPl>
+           }
+         </WhenInView>
+         <WhenInView>
+           {({ isInView }) =>
+           <RevealPr hide={!isInView}>
+           <H3 align="right">My All profile has the Same ID</H3>
+           <P align="left">
+           Skype | WeChat | fb | twitter | twitch | Soundcloud | Deviantart | Patreon | PayPal (whisper: including G+)
+           </P> 
            </RevealPr>
            }
          </WhenInView>
