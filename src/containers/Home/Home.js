@@ -100,14 +100,14 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-           <H1 align="left">Skype | WeChat | fb | twitter</H1>
+           <H1 align="left">Skype | WeChat | fb | twitter | Soundcloud | Deviantart | Patreon | PayPal</H1>
            </RevealPl>
            }
          </WhenInView>
          <WhenInView>
            {({ isInView }) =>
            <RevealPr hide={!isInView}>
-           <H3 align="right">My All profile has the Same ID (whisper: including gmail)</H3>
+           <H3 align="right">My All profile has the Same ID (whisper: including G+)</H3>
            </RevealPr>
            }
          </WhenInView>
@@ -147,7 +147,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-           <P align="left">I play Games specially dota2 and Mobile Legends: Bang Bang. I also play paladin, BombSquad, Age of Empire Castle Siege, Counter-Strike: Global Offensive Steam.</P>
+           <P align="left">I play Games specially dota2 and Mobile Legends: Bang Bang. I also play paladin, BombSquad, Age of Empire Castle Siege, Counter-Strike: Global Offensive.</P>
 
            </RevealPl>
            }
