@@ -26,7 +26,7 @@ class Resume extends Component {
 
         <P>&nbsp;</P>
         <H1 align="left">Others familiar things</H1>
-        <P align="left">Android, Ansible, Blockchain, D3.js, ElasticSearch, Flask, Hadoop, HBase, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, R, React.js, Scala, Spark ...</P>
+        <P align="left">Android, AngularJS, Ansible, Blockchain, D3.js, ElasticSearch, Flask, Hadoop, HBase, Kafka, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, R, React.js, Scala, Spark ...</P>
 
         <P>&nbsp;</P>
         <H1 align="left">WORK EXPERIENCE</H1>
