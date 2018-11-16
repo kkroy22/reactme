@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Flex } from '../../theme/grid';
 import { Title, VideoContainer } from './Resume.style';
-import ReactPlayer from 'react-player';
 import { H1, H2, H3, H4, H5, P, A, } from '../../theme/types';
-
+import pdf from '../../assets/Resume.pdf'
 //https://www.bikky.space
 //https://www.owcsx.science
 //https://www.linkedin.com/in/kkroy22/
@@ -15,7 +14,9 @@ class Resume extends Component {
        <P>&nbsp;</P>
 
         <Title>KIRAN KUMAR ROY</Title>
-        
+
+        <P align="right">Download My <A href={pdf}>Resume</A></P>      
+
         <P>&nbsp;</P>
         <H1 align="left">COMPUTER PROGRAMMING LANGUAGES I KNOW</H1>
         <P align="left">C/C++, Go(Golang), Java, JavaScript, Julia, Python, Rust.</P>
@@ -29,26 +30,32 @@ class Resume extends Component {
         <P align="left">Android, Ansible, Blockchain, D3.js, ElasticSearch, Flask, Hadoop, HBase, Kafka, Knime, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, Qt, R, React.js, Scala, Solr, Spark, Storm, TypeScript, Unreal Engine, Vue.js ...</P>
 
         <P>&nbsp;</P>
-        <H1 align="left">WORK EXPERIENCE</H1>
+        <H1 align="left">Professional Experience</H1>
         <P align="left">
         <ul>  
 
-        <li><H2>Nielsen (Consultant)</H2>
+        <li><H2>Nielsen (Global Information, Data and Measurement Company)</H2>
         <u>Developer</u>
         <ul>
-        <li><P>Item Char Validation: Characteristic validation with Text processing and Machine learning</P></li>
-        <li><P>X-coding: Based on Raw Description Machine will predict the Characteristic</P></li>
+        <li><P>Applying a supervised classification algorithm on the data provided by retailers of various countries.</P></li>
+        <li><P>Analysis of data with an unsupervised learning algorithm.</P></li>
+        <li><P>cleaning of retailer data.</P></li>
+
         </ul></li>
 
-        <li><H2>Lucida Technologies Private Limited (Bengaluru)</H2>
-        <u>Developer</u>
+        <li><H2>Lucida Technologies Pvt Ltd (Technology Services, Digital Services and Analytics)</H2>
+        <u>Machine Learning Team</u>
         <ul>
-        <li><P>Video Annotation Tool to Annote Vehicles</P></li>
+        <li><P>Building a computer vision API for correctly counting of the class of vehicle.</P></li>
         </ul></li>        
 
-        <li><H2>Yottolabs Private Limited (Bengaluru)</H2>
-        <u>Python Developer</u>
-        <P>Itemwise report generation</P></li>
+        <li><H2>YottoLabs (Digital Commerce and Digital Transformations)</H2>
+        <u>Team Member</u>
+        <ul>
+        <li><P>Involved in solving problems in the food and beverage sector.</P></li>
+        <li><P>Item report generation API.</P></li>
+        <li><P> Time series analysis of item.</P></li>
+        </ul></li> 
 
         </ul>
         </P>
