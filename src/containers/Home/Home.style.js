@@ -16,24 +16,31 @@ export const Title = styled.h1`
   color: ${OLIVINE};
 `;
 
-
-let state;
+var scene = [1,2,3,4,5];    
 let obs;
+let state = scene[Math.floor(Math.random() * scene.length)];
 
-// let background = setTimeout(function tick() {
 
-//   background = setTimeout(tick, 5000);
-// }, 5000);
-
-state = 0
-if(state == 0){
-  state = 1;
-  console.log(state)
+if(state == 1){
+  state = scene[Math.floor(Math.random() * scene.length)];
+  obs = require('../../assets/blue_balcony_by_kirokaze-d9h03vb.gif');
+}
+else if(state == 2){
+  state = scene[Math.floor(Math.random() * scene.length)];
   obs = require('../../assets/coffee_in_rain_by_kirokaze-d98qb8z.gif');
 }
-else{
-  state = 0;
-  console.log(state)
+else if(state == 3){
+  state = scene[Math.floor(Math.random() * scene.length)];
+  obs = require('../../assets/factory_5_by_kirokaze-d9dnodi.gif');
+
+}
+else if(state == 4){
+  state = scene[Math.floor(Math.random() * scene.length)];
+  obs = require('../../assets/shooting_stars2_by_kirokaze-d9ikcm1.gif');
+
+}
+else if(state == 5){
+  state = scene[Math.floor(Math.random() * scene.length)];
   obs = require('../../assets/waiting_the_snow_by_kirokaze-datjp1z.gif');
 }
 

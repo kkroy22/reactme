@@ -193,6 +193,14 @@ export default class Home extends Component {
            </RevealPl>
            }
          </WhenInView>
+         <WhenInView>
+           {({ isInView }) =>
+           <RevealPl hide={!isInView}>
+             PUBG mobile : kroy
+           </RevealPl>
+           }
+         </WhenInView>
+
 
        </Container>
     );

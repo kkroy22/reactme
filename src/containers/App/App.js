@@ -14,7 +14,8 @@ class App extends Component {
     return (
 	<div>
         <img src={logo} className="App-logo" alt="logo" />
-        proudly using React.js
+        Proudly Using React.js
+
         <Background/>
         <NavigationBar/>
         {this.props.children}

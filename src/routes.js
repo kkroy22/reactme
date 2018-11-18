@@ -17,7 +17,6 @@ export default (
       <IndexRoute component={Home}/>
       <Route path='/AboutMe' component={AboutMe}/>
       <Route path='/Resume' component={Resume}/>
-      <Route path="/owcsx" component={ Redirect } loc="http://www.owcsx.science"/>
     </Route>
   </Router>
 );

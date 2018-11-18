@@ -12,7 +12,6 @@ class NavigationBar extends Component {
         <NavItem to="/">Home</NavItem>
         <NavItem to="/Resume">Resume</NavItem>
         <NavItem to="/aboutMe">XP</NavItem>
-        <NavItem to="/owcsx">OWCSX</NavItem>
       </NavigationContainer>
     );
   }

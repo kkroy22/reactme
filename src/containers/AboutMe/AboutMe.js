@@ -17,7 +17,6 @@ class AboutMe extends Component {
 
         <Title>MoreAboutMe</Title>
         <H2 align="right">Kiran Kumar Roy</H2>
-        <P align="right"><A href = "http://www.owcsx.science">owcsx</A> is my inventory</P>
         <Flex>
           <VideoContainer>
             <ReactPlayer
