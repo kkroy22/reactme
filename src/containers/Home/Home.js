@@ -31,7 +31,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPc hide={!isInView}>
-           <P align="">My friends call me "KK", my mother calls me "Bikky" I belong to a Bengali family. I was born in Jammu and brought up in Northen region of India. I am Computer Science Engineer and i love building things. I enjoy learning multiple languages (Programming , Foreign and language of string i.e. Guitar).</P>
+           <P align="">My friends call me "KK", my mother calls me "Bikky" I belong to a Bengali family. I was born in Jammu and brought up in Northen region of India. I am Computer Science Engineer and i love building things. I enjoy learning multiple languages (Programming , Foreign and language of string).</P>
            </RevealPc>
            }
          </WhenInView>
@@ -170,14 +170,7 @@ export default class Home extends Component {
            </RevealPl>
            }
          </WhenInView>
-         <WhenInView>
-           {({ isInView }) =>
-           <RevealPl hide={!isInView}>
-           <P align="left">Did I mention that I enjoy to learn String language? beacuse I also love to Play it.</P>
-
-           </RevealPl>
-           }
-         </WhenInView>
+         
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
