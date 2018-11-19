@@ -107,7 +107,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-             Tumblr : owcsx
+             Tumblr : kirankumarroy
            </RevealPl>
            }
          </WhenInView>
