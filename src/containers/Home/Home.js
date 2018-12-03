@@ -99,7 +99,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPr hide={!isInView}>
-           <H1 align="right"><A href = "http://owcsx.tumblr.com/"> owcsx </A></H1>
+           <H1 align="right"><A href = "http://kirankumarroy.tumblr.com/"> tumblr </A></H1>
            </RevealPr>
            }
          </WhenInView>
@@ -107,7 +107,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPl hide={!isInView}>
-             Tumblr : owcsx
+             Tumblr : kirankumarroy
            </RevealPl>
            }
          </WhenInView>
