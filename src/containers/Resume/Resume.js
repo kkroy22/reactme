@@ -39,7 +39,6 @@ class Resume extends Component {
         <ul>
         <li><P>Applying a supervised classification algorithm on the data provided by retailers of various countries.</P></li>
         <li><P>Analysis of data with an unsupervised learning algorithm.</P></li>
-        <li><P>cleaning of retailer data.</P></li>
 
         </ul></li>
 
