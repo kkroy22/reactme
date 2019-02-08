@@ -15,14 +15,19 @@ class Resume extends Component {
 
         <Title>KIRAN KUMAR ROY</Title>
 
-        <P align="right">Download My <A href={pdf}>Resume</A></P>      
+        <H1 align="right">Download My <A href={pdf}>Resume</A></H1> 
 
         <P>&nbsp;</P>
-        <H1 align="left">COMPUTER PROGRAMMING LANGUAGES I KNOW</H1>
+        <H1 align="left">Summary</H1>
+        <P align="left">I have <b>One Year Experience</b> in working on building machine learning models with Python and data analysis and cleaning with Java. I was also involved in building web API pipeline for machine learning task using Django and Flask web framework and Model deployment with Docker containerization.</P>
+     
+
+        <P>&nbsp;</P>
+        <H1 align="left">FAMILIAR COMPUTER PROGRAMMING LANGUAGES</H1>
         <P align="left">C/C++, Go(Golang), Java, JavaScript, Julia, Python, Rust.</P>
         
         <P>&nbsp;</P>
-        <H1 align="left">TECHNOLOGIES I USE</H1>
+        <H1 align="left">FAMILIAR TECHNOLOGIES</H1>
         <P align="left">Angular, Celery, Docker, Django, Git, LaTeX, Linux, Machine Learning, OpenCV, PostgreSQL, Redis.</P>
 
         <P>&nbsp;</P>
@@ -36,24 +41,27 @@ class Resume extends Component {
 
         <li><H2>Nielsen (Global Information, Data and Measurement Company)</H2>
         <u>Developer</u>
+        <P align="left">Worked with a team responsible for </P>
         <ul>
-        <li><P>Applying a supervised classification algorithm on the data provided by retailers of various countries.</P></li>
-        <li><P>Analysis of data with an unsupervised learning algorithm.</P></li>
+        <li><P>Reducing the manual processing time of two to three months to a week.</P></li>
+        <li><P>Speed up the onboarding process of retailers to Nielsen.</P></li>
 
         </ul></li>
 
         <li><H2>Lucida Technologies Pvt Ltd (Technology Services, Digital Services and Analytics)</H2>
         <u>Machine Learning Team</u>
+        <P align="left">Worked with a team of three member for NH1 project where I was responsible for</P>
         <ul>
-        <li><P>Building a computer vision API for correctly counting of the class of vehicle.</P></li>
+        <li><P>building the initial video driver using python and OpenCV</P></li>
+        <li><P>Building a computer vision API with flask web framework for correctly counting of the class of vehicle.</P></li>
         </ul></li>        
 
         <li><H2>YottoLabs (Digital Commerce and Digital Transformations)</H2>
         <u>Team Member</u>
+        <P align="left">Involved  with the team which was responsible for solving problems in the food and beverage sector where i was responsible for:</P>        
         <ul>
-        <li><P>Involved in solving problems in the food and beverage sector.</P></li>
-        <li><P>Item report generation API.</P></li>
-        <li><P> Time series analysis of item.</P></li>
+        <li><P>Making item report generation API using flask web framework and PostgreSQL in Linux server</P></li>
+        <li><P>Time series analysis of item.</P></li>
         </ul></li> 
 
         </ul>
