@@ -19,7 +19,7 @@ class Resume extends Component {
 
         <P>&nbsp;</P>
         <H1 align="left">Summary</H1>
-        <P align="left">I have <b>One Year Experience</b> in working on building machine learning models with Python and data analysis and cleaning with Java. I was also involved in building web API pipeline for machine learning task using Django and Flask web framework and Model deployment with Docker containerization.</P>
+        <P align="left">I have <b>One Year Experience</b> in working on building machine learning models with Python and Java. I was also involved in building web API pipeline for machine learning task using Django and Flask web framework and Model deployment with Docker containerization.</P>
      
 
         <P>&nbsp;</P>
