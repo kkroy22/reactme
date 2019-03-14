@@ -16,7 +16,7 @@ export default class Home extends Component {
        <Container>
          <Artk>
            <h1>Kiran Kumar Roy </h1>
-           <h3>Observer of Wisdom</h3>
+           <h3>Art of Observation</h3>
          </Artk>
 
          <WhenInView>
@@ -31,7 +31,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPc hide={!isInView}>
-           <P align="">My friends call me "KK", my mother calls me "Bikky" I belong to a Bengali family. I was born in Jammu and brought up in Northen region of India. I am Computer Science Engineer and i love building things. I enjoy learning multiple languages (Programming , Foreign and language of string).</P>
+           <P align="">It fascinate me how statistic and mathematics proves the business decision and that you can predict future with numbers. When I got my first experience analysing data I realized why I love to play support hero in Dota 2, I am good at analysis which leads to reach epic come back victory.</P>
            </RevealPc>
            }
          </WhenInView>
