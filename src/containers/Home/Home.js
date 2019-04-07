@@ -31,7 +31,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPc hide={!isInView}>
-           <P align="">It fascinate me how statistic and mathematics proves the business decision and that you can predict future with numbers. When I got my first experience analysing data I realized why I love to play support hero in Dota 2, I am good at analysis which leads to reach epic come back victory.</P>
+           <P align="">It fascinate me how statistic and mathematics proves statement and that you can predict future with numbers. When I got my first experience analysing data I realized why I generally to play support hero in Dota 2, I am good at analysis which leads to reach epic come back victory.</P>
            </RevealPc>
            }
          </WhenInView>
