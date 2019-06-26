@@ -31,7 +31,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPc hide={!isInView}>
-           <P align="">It fascinate me how mathematics proves statement and that you can predict future with numbers. Download my <A href = "/Resume">Resume</A></P>
+           <P align="">It fascinate me how mathematics proves statement and that you can predict future with numbers. Download my <A href = "#/Resume">Resume</A></P>
            </RevealPc>
            }
          </WhenInView>
