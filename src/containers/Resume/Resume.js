@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Flex } from '../../theme/grid';
 import { Title, VideoContainer } from './Resume.style';
 import { H1, H2, H3, H4, H5, P, A, } from '../../theme/types';
-import pdf from '../../assets/Resume.pdf'
+import pdf from '../../assets/Resume_Site.pdf'
 //https://www.bikky.space
 //https://www.owcsx.science
 //https://www.linkedin.com/in/kkroy22/
@@ -19,7 +19,7 @@ class Resume extends Component {
         
         <P>&nbsp;</P>
         <H1 align="left">FAMILIAR COMPUTER PROGRAMMING LANGUAGES</H1>
-        <P align="left">C/C++, Go(Golang), Java, JavaScript, Julia, Python, Rust.</P>
+        <P align="left">C/C++, Go(Golang), Java, JavaScript, Julia, Kotlin, Python, Rust.</P>
         
         <P>&nbsp;</P>
         <H1 align="left">FAMILIAR TECHNOLOGIES</H1>
@@ -27,7 +27,7 @@ class Resume extends Component {
 
         <P>&nbsp;</P>
         <H1 align="left">Others familiar things</H1>
-        <P align="left">Android, Ansible, Blockchain, D3.js, ElasticSearch, Flask, Hadoop, HBase, Kafka, Knime, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, Qt, R, React.js, Scala, Solr, Spark, Storm, TypeScript, Unreal Engine, Vue.js ...</P>
+        <P align="left">Android, Ansible, Augmented Reality, Blockchain, D3.js, Embedded System, ElasticSearch, Flask, Hadoop, HBase, IoT, Kafka, Knime, MapReduce, Microsoft Excel, MongoDB, Node.js, OpenMP, Qt, R, React.js, ROS, Scala, Solr, Spark, Storm, TypeScript, Unreal Engine, Vue.js ...</P>
 
         <P>&nbsp;</P>
         <H1 align="left">ACADEMIC PROJECTS AND PRESENTATION</H1>
