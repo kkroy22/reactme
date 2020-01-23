@@ -76,7 +76,7 @@ export default class Home extends Component {
          <WhenInView>
            {({ isInView }) =>
            <RevealPr hide={!isInView}>
-           <H1 align="right"><A href = "https://www.github.com/bikky22/"> My GitHub Profile </A></H1>
+           <H1 align="right"><A href = "https://www.github.com/kkroy22/"> My GitHub Profile </A></H1>
            </RevealPr>
            }
          </WhenInView>
