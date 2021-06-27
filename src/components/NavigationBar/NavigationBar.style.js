@@ -9,9 +9,6 @@ export const NavigationContainer = styled(Flex)`
   top: 1em;
 `;
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const NavItem = styled(Link)`
   margin-right: 6px;
@@ -36,6 +33,3 @@ export const NavItem = styled(Link)`
   }
 `;
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/

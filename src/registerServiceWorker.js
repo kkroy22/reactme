@@ -18,9 +18,6 @@ const isLocalhost = Boolean(
     )
 );
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
@@ -103,9 +100,6 @@ function checkValidServiceWorker(swUrl) {
     });
 }
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export function unregister() {
   if ('serviceWorker' in navigator) {

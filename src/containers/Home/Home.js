@@ -4,10 +4,6 @@ import { H3, H2, H1, P, A } from '../../theme/types';
 import { Title, Artk, RevealPl, RevealPr, RevealPc} from './Home.style';
 import WhenInView from '../../components/WhenInView/WhenInView'
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 export default class Home extends Component {
   static propTypes = {};
 
@@ -199,6 +195,3 @@ export default class Home extends Component {
     );
   }
 }
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/

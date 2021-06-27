@@ -3,10 +3,6 @@ import { GRANITE_GRAY } from './variables';
 
 /* eslint-disable */
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Nova+Mono|VT323');
   body {

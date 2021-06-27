@@ -3,9 +3,6 @@ import { Container, Flex } from '../../theme/grid';
 import { Title, VideoContainer } from './Resume.style';
 import { H1, H2, H3, H4, H5, P, A, } from '../../theme/types';
 import pdf from '../../assets/Resume_Site.pdf'
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 class Resume extends Component {
   render() {
@@ -46,8 +43,3 @@ class Resume extends Component {
   }
 }
 export default Resume;
-
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-

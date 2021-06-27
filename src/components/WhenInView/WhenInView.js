@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Waypoint from 'react-waypoint';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 class WhenInView extends Component {
   constructor(props) {
     super(props);
@@ -23,10 +19,6 @@ class WhenInView extends Component {
     }
   }
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
   render() {
     return (
       <div>
@@ -37,8 +29,5 @@ class WhenInView extends Component {
   }
 }
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export default WhenInView;

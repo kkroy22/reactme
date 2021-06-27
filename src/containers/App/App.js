@@ -5,10 +5,6 @@ import { Background } from './App.style';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import { H1, H2, H3, H4, H5, P, A, } from '../../theme/types';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 class App extends Component {
   render() {
     return (

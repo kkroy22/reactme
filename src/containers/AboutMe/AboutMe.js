@@ -4,10 +4,6 @@ import { Title, VideoContainer } from './AboutMe.style';
 import ReactPlayer from 'react-player';
 import { H1, H2, P, A } from '../../theme/types';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 class AboutMe extends Component {
   render() {
     return (
@@ -57,8 +53,5 @@ class AboutMe extends Component {
   }
 }
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export default AboutMe;

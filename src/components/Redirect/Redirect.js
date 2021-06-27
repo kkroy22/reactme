@@ -2,10 +2,6 @@ import React, { Component, PropTypes } from 'react';
 import {P, A } from '../../theme/types';
 import { Title } from './Redirect.style';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 export class Redirect extends Component {
   constructor( props ){
     super();
@@ -19,8 +15,5 @@ export class Redirect extends Component {
   }
 }
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export default Redirect;

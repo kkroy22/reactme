@@ -2,9 +2,6 @@ import styled from 'styled-components';
 import { Flex, Div } from '../../theme/grid';
 import { PALE_GOLDENROD } from '../../theme/variables';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const Background = styled.div`
   position: fixed;

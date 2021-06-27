@@ -7,10 +7,6 @@ export const Image = styled.img`
   width: 100%;
 `;
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 export const Title = styled.h1`
   margin-top: 0;
   color: ${OLIVINE};
@@ -102,10 +98,6 @@ export const RevealPr = styled.p`
     }
   `}
 `;
-
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const RevealPc = styled.p`
   position: relative;

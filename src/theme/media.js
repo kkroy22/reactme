@@ -7,9 +7,6 @@ const sizes = {
   giant: 1170
 };
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 const media = Object.keys(sizes).reduce((finalMedia, size) => {
   return {

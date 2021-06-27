@@ -1,9 +1,6 @@
 import styled, {css} from 'styled-components';
 import media from './media';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const Div = styled.div`
   ${({ marginBottom }) => marginBottom && css`
@@ -20,9 +17,6 @@ export const Div = styled.div`
   `}
 `;
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const Container = styled(Div)`
   padding-left: 120px;
@@ -44,9 +38,6 @@ export const Relative = styled(Div)`
   position: relative;
 `;
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
 
 export const Flex = styled(Div)`
   display: flex;

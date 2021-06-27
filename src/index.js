@@ -5,10 +5,6 @@ import './index.css';
 
 import registerServiceWorker from './registerServiceWorker';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 ReactDOM.render( routes,
   document.getElementById('root')
 );

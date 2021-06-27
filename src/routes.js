@@ -7,10 +7,6 @@ import AboutMe from './containers/AboutMe/AboutMe';
 import Resume from './containers/Resume/Resume';
 import Redirect from './components/Redirect/Redirect';
 
-//https://www.bikky.space
-//https://www.owcsx.science
-//https://www.linkedin.com/in/kkroy22/
-
 export default (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
