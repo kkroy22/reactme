@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Flex } from '../../theme/grid';
 import { Title, VideoContainer } from './Resume.style';
 import { H1, H2, H3, H4, H5, P, A, } from '../../theme/types';
-import pdf from '../../assets/Resume_Site.pdf'
+import pdf from '../../assets/Resume-Kiran-Roy.pdf'
 
 class Resume extends Component {
   render() {
